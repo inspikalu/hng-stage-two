@@ -27,7 +27,7 @@ const App: React.FC = function () {
 
   return (
     <>
-      <div>
+      <div id='home'>
         <div className="flex w-full py-3 px-3">
           <label className='flex items-center gap-1 w-full searchIcon focus-within:border-2 focus-within:border-gray-600 rounded-md p-2'>
             <FontAwesomeIcon icon={faMagnifyingGlass} className='cursor-pointer' />
