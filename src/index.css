@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    *{
+        transition: all .8ms ease-in-out;
+    }
+    .text-2xl-responsive{
+        font-size: clamp(1rem, 5vw, 1.5rem);
+        line-height: clamp(1.5rem, 5vw, 2rem);
+    }
+}
